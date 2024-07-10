@@ -50,7 +50,7 @@ Here's the breakdown of the inferences from the output of this query:
  - **Companies:** Well-known companies such as ServiceNow, Bosch Group, and Deutsche Bank appear in the list, indicating that these organizations offer competitive salaries.
  - **Salary Range:** The highest salary listed is USD 177,283, and the lowest in the top 10 is USD 111,175, showing a significant range within high-paying positions.
 
-![Top Paying Roles](Assests\query_1.png)
+![Top Paying Roles](Assests/query_1.png)
  *Bar graph visualizing the top 10 salaries for the data analyst role.*
 
 
@@ -109,7 +109,7 @@ These are the inferences from Output:
 - **Visualization Tools:** Tools like Tableau and Power BI are also significant, indicating the need for skills in data visualization.
 - **Cloud Technologies:** Azure and AWS are increasingly essential, showcasing the industry's shift towards cloud-based data solutions.
 
-![Most Demanded Skills for Data Analyst](Assests\query3.png)
+![Most Demanded Skills for Data Analyst](Assests/query3.png)
 *This scatter plot visualizes the most demanded skills for Data Analysts in India, where each point represents a skill. The size of each point corresponds to the number of job postings mentioning that skill, providing a clear visual representation of demand across different skills.*
 
 ### Question 4: What are the highest-paying skills for Data Analysts in India?
@@ -133,7 +133,7 @@ Inferences from the Output:
 - Skills like Neo4j and GDPR also offer competitive average salaries of USD 163,782.
 - Airflow, MongoDB, and Databricks round out the top 10 highest-paying skills, with salaries ranging from USD 135,994 to USD 138,087.5. 
 
-![Highest paying skills for Data Analyst](Assests\query_4.png)
+![Highest paying skills for Data Analyst](Assests/query_4.png)
 *This horizontal bar chart visually represents the average yearly salaries associated with each skill identified from the analysis*
 
 ### Question 5: What are the optimum skills required for Data Analysts in India based on both demand and salary?
@@ -220,7 +220,7 @@ The table shows the job count and average salary associated with the optimum ski
 |r	     | 18	     | 86,609.11
 
 
-![Average Salary for optimum skills](Assests\query_5.png)
+![Average Salary for optimum skills](Assests/query_5.png)
 *This is a line plot with markers. It visualizes the average salary for each of the identified optimum skills for Data Analysts in India, providing a clear comparison across different skills.*
 # What I Learned 
 - **SQL and PostgreSQL Skills:** Through this project, I enhanced my proficiency in SQL and PostgreSQL for data extraction, manipulation, and analysis. I learned to write complex queries to retrieve specific information from databases, such as identifying top-paying job positions and analyzing skill demand in the job market.
