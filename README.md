@@ -48,9 +48,9 @@ Here's the breakdown of the inferences from the output of this query:
  - **Job Titles:** The query includes not only "Data Analyst" roles but also related positions such as "Staff Applied Research Engineer" and "Data Architect."
  - **Locations:** High-paying roles are primarily located in major cities like Hyderabad, Bengaluru, and Gurugram.
  - **Companies:** Well-known companies such as ServiceNow, Bosch Group, and Deutsche Bank appear in the list, indicating that these organizations offer competitive salaries.
- - **Salary Range:** The highest salary listed is USD 177,283, and the lowest in the top 10 is USD 111,175, showing a significant range within high-paying positions.
+ - **Salary Range:** The highest salary listed is CAD 177,283, and the lowest in the top 10 is CAD 111,175, showing a significant range within high-paying positions.
 
-![Top Paying Roles](Assests/query_1.png)
+![Top Paying Roles](Assests/1_query.png)
  *Bar graph visualizing the top 10 salaries for the data analyst role.*
 
 
@@ -83,8 +83,8 @@ ORDER BY salary_year_avg DESC
 ```
 From the output of the query:
 
-- PostgreSQL, GitLab, PySpark, MySQL, and Linux are among the top paying skills, each commanding an average salary of $165,000 USD annually.
-- Skills like Neo4j, GDPR, Airflow, MongoDB, and Databricks also show high earning potential, with average salaries ranging from $138,087.5 to $135,994 USD annually.
+- PostgreSQL, GitLab, PySpark, MySQL, and Linux are among the top paying skills, each commanding an average salary of $165,000 CAD annually.
+- Skills like Neo4j, GDPR, Airflow, MongoDB, and Databricks also show high earning potential, with average salaries ranging from $138,087.5 to $135,994 CAD annually.
 
 ### Question 3: What are the most demanded skills for Data Analysts in the Indian job market?
 
@@ -129,11 +129,11 @@ ORDER BY average_salary DESC
 LIMIT 10
 ```
 Inferences from the Output:
-- PostgreSQL, GitLab, PySpark, MySQL, and Linux are the top skills associated with the highest average salaries, all earning USD 165,000 annually.
-- Skills like Neo4j and GDPR also offer competitive average salaries of USD 163,782.
-- Airflow, MongoDB, and Databricks round out the top 10 highest-paying skills, with salaries ranging from USD 135,994 to USD 138,087.5. 
+- PostgreSQL, GitLab, PySpark, MySQL, and Linux are the top skills associated with the highest average salaries, all earning CAD 165,000 annually.
+- Skills like Neo4j and GDPR also offer competitive average salaries of CAD 163,782.
+- Airflow, MongoDB, and Databricks round out the top 10 highest-paying skills, with salaries ranging from CAD 135,994 to CAD 138,087.5. 
 
-![Highest paying skills for Data Analyst](Assests/query_4.png)
+![Highest paying skills for Data Analyst](Assests/4_query.png)
 *This horizontal bar chart visually represents the average yearly salaries associated with each skill identified from the analysis*
 
 ### Question 5: What are the optimum skills required for Data Analysts in India based on both demand and salary?
@@ -220,7 +220,7 @@ The table shows the job count and average salary associated with the optimum ski
 |r	     | 18	     | 86,609.11
 
 
-![Average Salary for optimum skills](Assests/query_5.png)
+![Average Salary for optimum skills](Assests/5_querynew.png)
 *This is a line plot with markers. It visualizes the average salary for each of the identified optimum skills for Data Analysts in India, providing a clear comparison across different skills.*
 # What I Learned 
 - **SQL and PostgreSQL Skills:** Through this project, I enhanced my proficiency in SQL and PostgreSQL for data extraction, manipulation, and analysis. I learned to write complex queries to retrieve specific information from databases, such as identifying top-paying job positions and analyzing skill demand in the job market.
